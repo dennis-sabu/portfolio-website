@@ -12,7 +12,7 @@ export default function Works() {
   ]
 
   return (
-    <div className="min-h-screen flex flex-col justify-center px-4 py-20">
+    <div className="min-h-screen flex flex-col justify-center md:px-4 px-10 py-20">
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <PixelHeading>WORK&apos;S</PixelHeading>

@@ -4,7 +4,7 @@ import { ArrowDown } from "lucide-react"
 
 export default function About() {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center px-4">
+    <div className="min-h-screen relative flex flex-col justify-center items-center px-4">
       <div className="container mx-auto text-center">
         <PixelHeading>ABOUT</PixelHeading>
 

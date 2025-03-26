@@ -3,7 +3,7 @@ import SocialIcons from "@/components/social-icons"
 
 export default function Contact() {
   return (
-    <div className="min-h-screen flex flex-col justify-center px-4 py-20">
+    <div className="min-h-screen flex flex-col justify-center pt-20">
       <div className="container mx-auto max-w-2xl">
         <div className="text-center mb-12">
           <PixelHeading>CONTACT ME</PixelHeading>

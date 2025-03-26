@@ -8,13 +8,13 @@ export default function Home() {
   return (
     <>
       <div className="min-h-screen flex flex-col justify-center px-4 py-20 md:py-0">
-        <div className="container mx-auto grid md:grid-cols-2 gap-8 items-center">
+        <div className="container mx-auto grid md:grid-cols-2 p-8 gap-8 items-center">
           <div className="flex flex-col md:flex-row items-start gap-8">
-            <div className="flex items-start">
-              <div className="text-8xl font-bold text-purple-500">U</div>
-              <div className="text-8xl font-bold text-white">I</div>
-              <div className="text-8xl font-bold text-purple-500">.</div>
-              <div className="text-8xl font-bold text-white">Designer </div>
+            <div className="flex md:text-8xl text-4xl items-start">
+              <div className=" font-bold text-purple-500">U</div>
+              <div className=" font-bold text-white">I</div>
+              <div className=" font-bold text-purple-500">.</div>
+              <div className=" font-bold text-white">Designer </div>
             </div>
           </div>
 
@@ -23,7 +23,7 @@ export default function Home() {
               <h1 className="text-3xl md:text-4xl font-bold">
                 I am <span className="text-purple-500">Dennis Sabu</span>,
               </h1>
-              <p className="text-lg text-center md:text-left">
+              <p className=" md:text-xl text-md text-left">
                 A B.Tech student, developer, designer, and chess player, passionate about programming, web development,
                 and innovation.
               </p>
